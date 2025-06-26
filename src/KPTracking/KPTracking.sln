@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KPTracking.WebAPI", "KPTracking.WebAPI\KPTracking.WebAPI.csproj", "{5BF30CBA-E1BD-47A4-BA88-543AC9716238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KPTracking", "Frontend\KPTracking\KPTracking.csproj", "{844481CA-0B2D-463A-AD2F-2BE5F5735D06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{2BEED88F-611F-4E55-ACC0-9EDCA597FB58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BF30CBA-E1BD-47A4-BA88-543AC9716238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF30CBA-E1BD-47A4-BA88-543AC9716238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF30CBA-E1BD-47A4-BA88-543AC9716238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF30CBA-E1BD-47A4-BA88-543AC9716238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{844481CA-0B2D-463A-AD2F-2BE5F5735D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{844481CA-0B2D-463A-AD2F-2BE5F5735D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{844481CA-0B2D-463A-AD2F-2BE5F5735D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{844481CA-0B2D-463A-AD2F-2BE5F5735D06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{844481CA-0B2D-463A-AD2F-2BE5F5735D06} = {2BEED88F-611F-4E55-ACC0-9EDCA597FB58}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BEA6D82-1939-4F9B-B3B4-3D2C3294820E}
+	EndGlobalSection
+EndGlobal
